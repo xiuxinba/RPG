@@ -6,16 +6,16 @@ using namespace std;
 
 struct BattleSystem
 {
-    //È«Ìå½ÇÉ«Êı×é
+    //å…¨ä½“è§’è‰²æ•°ç»„
     Role allRole[8];
 
-    //ÎÒ·½Õ½¶·ĞĞÎª
+    //æˆ‘æ–¹æˆ˜æ–—è¡Œä¸º
     void friBattleAction();
 
-    //µĞ·½Õ½¶·ĞĞÎª
+    //æ•Œæ–¹æˆ˜æ–—è¡Œä¸º
     void EneBattleAction();
 
-    //¹¹Ôìº¯Êı, ´«ÈëË«·½ÕóĞÍ
+    //æ„é€ å‡½æ•°, ä¼ å…¥åŒæ–¹é˜µå‹
     BattleSystem();
 };
 
