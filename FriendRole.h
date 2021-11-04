@@ -2,6 +2,6 @@
 #include "Role.h"
 struct FriendRole : public Role
 {
-    //战斗行为
+    //鎴樻枟琛屼负
     virtual void battleAction();
 };
