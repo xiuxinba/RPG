@@ -1,13 +1,9 @@
 #include "LineUp.h"
 using namespace std;
 
-void test1()
-{
-}
-
 int main()
 {
-    cout << "��ʼ" << endl;
-    test1();
+    cout << "你好使劲儿" << endl;
+    system("pause");
     return 0;
 }
