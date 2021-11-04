@@ -5,12 +5,12 @@ using namespace std;
 
 struct Role
 {
-    bool ForE;       //ÅĞ¶ÏÊÇÓÑ»òµĞ
-    int m_level;     //µÈ¼¶
-    string m_name;   //Ãû×Ö
-    int m_maxHealth; //×î´óÉúÃüÖµ
-    int m_atk;       //¹¥»÷Á¦
-    int m_speed;     //ËÙ¶È
+    bool ForE;       //åˆ¤æ–­æ˜¯å‹æˆ–æ•Œ
+    int m_level;     //ç­‰çº§
+    string m_name;   //åå­—
+    int m_maxHealth; //æœ€å¤§ç”Ÿå‘½å€¼
+    int m_atk;       //æ”»å‡»åŠ›
+    int m_speed;     //é€Ÿåº¦
 
     virtual void battleAction();
 };
